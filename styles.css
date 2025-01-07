@@ -1,0 +1,465 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and overall layout */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container for layout */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* About Section */
+#about {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+/* About Section */
+#about {
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient background */
+    padding: 60px 0; /* Add more padding for breathing room */
+    color: #fff; /* White text to contrast with the background */
+    text-align: center; /* Center text */
+    border-radius: 10px; /* Rounded corners for modern look */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Subtle box shadow for depth */
+}
+
+#about h2 {
+    font-size: 2.8em;
+    margin-bottom: 20px;
+    font-weight: bold; /* Bold title */
+    letter-spacing: 1px; /* Add letter spacing for the title */
+}
+
+#about p {
+    font-size: 1.3em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto; /* Center the paragraph */
+    padding: 0 20px; /* Add some horizontal padding */
+    text-align: center;
+    font-style: italic; /* Italicize the paragraph for style */
+    opacity: 0.9; /* Slightly reduce opacity to create a softer look */
+}
+
+/* Optional: Add a hover effect on the About section */
+#about:hover {
+    background: linear-gradient(135deg, #2575fc, #6a11cb); /* Reverse gradient on hover */
+    transform: scale(1.02); /* Slight scale-up effect */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+
+#about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+#skills h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#skills ul li {
+    background-color: #fff;
+    color: #333;
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    min-width: 150px;
+    text-align: center;
+}
+
+#skills ul li i {
+    margin-right: 10px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+#skills ul li:hover {
+    background-color: #0066cc;
+    color: #fff;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#skills ul li.html:hover {
+    background-color: #e34c26; /* HTML color */
+}
+
+#skills ul li.js:hover {
+    background-color: #f0db4f; /* JavaScript yellow */
+    color: #333;
+}
+
+#skills ul li.ppsc:hover {
+    background-color: #6c757d; /* Grey for PPSC */
+}
+
+#skills ul li.git:hover {
+    background-color: #333; /* GitHub dark color */
+}
+
+/* Responsive Skills Section */
+@media (max-width: 768px) {
+    #skills ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #skills ul li {
+        width: 80%;
+        margin: 10px 0;
+    }
+}
+
+
+/* Skills Section */
+#skills {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+#skills h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style: none;
+    text-align: center;
+}
+
+#skills ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Projects Section */
+#projects {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+/* Projects Section */
+#projects {
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Gradient background */
+    color: #fff; /* White text to contrast with the background */
+    padding: 60px 0; /* Add vertical padding */
+    text-align: center; /* Center text */
+    border-radius: 10px; /* Rounded corners for modern look */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Subtle box shadow for depth */
+}
+
+#projects h2 {
+    font-size: 2.8em;
+    margin-bottom: 40px; /* More space below the heading */
+    font-weight: bold;
+    letter-spacing: 2px; /* Slight letter-spacing */
+}
+
+.projects-gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.project {
+    background-color: #fff;
+    color: #333;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    width: 48%; /* Each project takes up 48% of the row width */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.project p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.project ul {
+    list-style: none;
+    padding: 0;
+}
+
+.project ul li {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.project a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.project a:hover {
+    color: #0066cc; /* Change link color on hover */
+}
+
+/* Hover Effect on Projects */
+.project:hover {
+    transform: translateY(-5px); /* Lift the project card slightly */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+/* Responsive Design: Adjust layout on smaller screens */
+@media (max-width: 768px) {
+    .projects-gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project {
+        width: 80%; /* On smaller screens, each project takes up more width */
+        margin-bottom: 30px;
+    }
+}
+
+
+#projects h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.projects-gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: 45%;
+    margin-bottom: 20px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.project ul {
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.project ul li {
+    margin-bottom: 5px;
+}
+
+.project a {
+    color: #333;
+    text-decoration: none;
+}
+
+.project a:hover {
+    color: #0066cc;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+
+#contact h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #444;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .projects-gallery {
+        flex-direction: column;
+    }
+
+    .project {
+        width: 100%;
+    }
+
+    form {
+        width: 90%;
+    }
+}
